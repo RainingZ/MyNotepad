@@ -1,0 +1,85 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TForm1','FORMDATA',[
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3#11#5#6'Height'#3'r'#2#3'Top'#3#172#0#5'Wi'
+  +'dth'#3'H'#2#18'HorzScrollBar.Page'#3#150#0#19'HorzScrollBar.Range'#3#150#0
+  +#18'VertScrollBar.Page'#2#28#19'VertScrollBar.Range'#2#28#7'Caption'#6#7'Not'
+  +'epad'#12'ClientHeight'#2#0#11'ClientWidth'#2#0#4'Menu'#7#8'MainMenu'#8'OnCr'
+  +'eate'#7#10'FormCreate'#10'LCLVersion'#6#7'1.2.6.0'#0#5'TMemo'#5'Memo1'#4'Le'
+  +'ft'#2#0#6'Height'#2#2#3'Top'#2#0#5'Width'#3#150#0#5'Align'#7#8'alClient'#8
+  +'OnChange'#7#11'Memo1Change'#9'OnKeyDown'#7#12'Memo1KeyDown'#11'OnMouseDown'
+  +#7#14'Memo1MouseDown'#10'ScrollBars'#7#10'ssAutoBoth'#8'TabOrder'#2#0#8'Word'
+  +'Wrap'#8#0#0#10'TStatusBar'#10'StatusBar1'#4'Left'#2#0#6'Height'#2#26#3'Top'
+  +#2#2#5'Width'#3#150#0#6'Panels'#14#1#9'Alignment'#7#14'taRightJustify'#5'Wid'
+  +'th'#2'2'#0#0#11'SimplePanel'#8#7'Visible'#8#0#0#6'TPanel'#6'Panel1'#4'Left'
+  +#2'('#6'Height'#3#168#0#3'Top'#2'H'#5'Width'#3#200#1#12'ClientHeight'#3#168#0
+  +#11'ClientWidth'#3#200#1#8'TabOrder'#2#2#7'Visible'#8#0#6'TLabel'#6'Label1'#4
+  +'Left'#3#183#0#6'Height'#2#23#3'Top'#2#16#5'Width'#2'U'#5'Align'#7#8'alCusto'
+  +'m'#9'Alignment'#7#8'taCenter'#7'Caption'#6#12'Please Visit'#11'Font.Height'
+  +#2#239#11'ParentColor'#8#10'ParentFont'#8#7'OnClick'#7#11'Label1Click'#0#0#6
+  +'TLabel'#6'Label2'#4'Left'#2' '#6'Height'#2#20#3'Top'#2'8'#5'Width'#3#139#1#5
+  +'Align'#7#8'alCustom'#9'Alignment'#7#8'taCenter'#7'Caption'#6'6http://window'
+  +'s.microsoft.com/en-ca/windows/notepad-faq'#10'Font.Color'#7#15'clMenuHighli'
+  +'ght'#11'ParentColor'#8#10'ParentFont'#8#8'WordWrap'#9#7'OnClick'#7#11'Label'
+  +'2Click'#0#0#7'TButton'#7'Button1'#4'Left'#3#184#0#6'Height'#2#25#3'Top'#2'p'
+  +#5'Width'#2'^'#7'Caption'#6#2'OK'#7'OnClick'#7#12'Button1Click'#8'TabOrder'#2
+  +#0#0#0#0#6'TPanel'#6'Panel2'#4'Left'#2'('#6'Height'#3#168#0#3'Top'#2'H'#5'Wi'
+  +'dth'#3#200#1#12'ClientHeight'#3#168#0#11'ClientWidth'#3#200#1#8'TabOrder'#2
+  +#3#7'Visible'#8#0#6'TLabel'#6'Label3'#4'Left'#3#168#0#6'Height'#2#23#3'Top'#2
+  +#16#5'Width'#2'w'#5'Align'#7#8'alCustom'#9'Alignment'#7#8'taCenter'#7'Captio'
+  +'n'#6#13'About Notepad'#11'Font.Height'#2#239#11'ParentColor'#8#10'ParentFon'
+  +'t'#8#7'OnClick'#7#11'Label3Click'#0#0#6'TLabel'#6'Label4'#4'Left'#3#152#0#6
+  +'Height'#2'('#3'Top'#2'0'#5'Width'#3#150#0#5'Align'#7#8'alCustom'#9'Alignmen'
+  +'t'#7#8'taCenter'#7'Caption'#6'"Notepad Version: 1.0    Build 1120'#10'Font.'
+  +'Color'#7#13'clCaptionText'#11'ParentColor'#8#10'ParentFont'#8#8'WordWrap'#9
+  +#7'OnClick'#7#11'Label2Click'#0#0#6'TLabel'#6'Label5'#4'Left'#3#183#0#6'Heig'
+  +'ht'#2#20#3'Top'#2'^'#5'Width'#2'_'#7'Caption'#6#13'by Alex Zhang'#11'Parent'
+  +'Color'#8#0#0#7'TButton'#7'Button2'#4'Left'#3#183#0#6'Height'#2#24#3'Top'#3
+  +#128#0#5'Width'#2'`'#7'Caption'#6#2'OK'#7'OnClick'#7#12'Button2Click'#8'TabO'
+  +'rder'#2#0#0#0#0#6'TPanel'#6'Panel3'#4'Left'#2'*'#6'Height'#3#166#0#3'Top'#2
+  +'J'#5'Width'#3#198#1#12'ClientHeight'#3#166#0#11'ClientWidth'#3#198#1#8'TabO'
+  +'rder'#2#4#7'Visible'#8#0#6'TLabel'#6'Label6'#4'Left'#3#184#0#6'Height'#2#23
+  +#3'Top'#2#24#5'Width'#2'R'#9'Alignment'#7#8'taCenter'#7'Caption'#6#10'Go To '
+  +'Line'#11'Font.Height'#2#239#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'
+  +#6'Label7'#4'Left'#2' '#6'Height'#2#20#3'Top'#2'@'#5'Width'#2'X'#7'Caption'#6
+  +#12'Line Number:'#11'ParentColor'#8#0#0#5'TEdit'#5'Edit1'#4'Left'#3#134#0#6
+  +'Height'#2#28#3'Top'#2'<'#5'Width'#3#225#0#10'OnKeyPress'#7#13'Edit1KeyPress'
+  +#8'TabOrder'#2#0#0#0#7'TButton'#7'Button3'#4'Left'#2'h'#6'Height'#2#25#3'Top'
+  +#2'p'#5'Width'#2'h'#7'Caption'#6#5'Go To'#7'OnClick'#7#12'Button3Click'#8'Ta'
+  +'bOrder'#2#1#0#0#7'TButton'#7'Button4'#4'Left'#3#240#0#6'Height'#2#25#3'Top'
+  +#2'p'#5'Width'#2'd'#7'Caption'#6#6'Cancel'#7'OnClick'#7#12'Button4Click'#8'T'
+  +'abOrder'#2#2#0#0#0#9'TMainMenu'#8'MainMenu'#4'left'#2#24#3'top'#3#216#1#0#9
+  +'TMenuItem'#9'MenuItem1'#7'Caption'#6#4'File'#7'OnClick'#7#14'MenuItem1Click'
+  +#0#9'TMenuItem'#2'Nw'#7'Caption'#6#3'New'#7'OnClick'#7#7'NwClick'#0#0#9'TMen'
+  +'uItem'#4'Open'#7'Caption'#6#7'Open...'#7'OnClick'#7#9'OpenClick'#0#0#9'TMen'
+  +'uItem'#4'Save'#7'Caption'#6#4'Save'#7'OnClick'#7#9'SaveClick'#0#0#9'TMenuIt'
+  +'em'#6'SaveAs'#7'Caption'#6#10'Save As...'#7'OnClick'#7#11'SaveAsClick'#0#0#9
+  +'TMenuItem'#9'MenuItem8'#7'Caption'#6#13'Page Setup...'#7'OnClick'#7#14'Menu'
+  +'Item8Click'#0#0#9'TMenuItem'#9'MenuItem7'#7'Caption'#6#4'Exit'#0#0#0#9'TMen'
+  +'uItem'#9'MenuItem2'#7'Caption'#6#4'Edit'#0#9'TMenuItem'#4'Undo'#7'Caption'#6
+  +#4'Undo'#7'OnClick'#7#9'UndoClick'#0#0#9'TMenuItem'#3'Cut'#7'Caption'#6#3'Cu'
+  +'t'#7'OnClick'#7#8'CutClick'#0#0#9'TMenuItem'#3'Cpy'#7'Caption'#6#4'Copy'#7
+  +'OnClick'#7#8'CpyClick'#0#0#9'TMenuItem'#5'Paste'#7'Caption'#6#5'Paste'#7'On'
+  +'Click'#7#10'PasteClick'#0#0#9'TMenuItem'#3'Del'#7'Caption'#6#6'Delete'#7'On'
+  +'Click'#7#8'DelClick'#0#0#9'TMenuItem'#4'Find'#7'Caption'#6#7'Find...'#7'OnC'
+  +'lick'#7#9'FindClick'#0#0#9'TMenuItem'#8'FindNext'#7'Caption'#6#9'Find Next'
+  +#7'OnClick'#7#13'FindNextClick'#0#0#9'TMenuItem'#7'Replace'#7'Caption'#6#10
+  +'Replace...'#7'OnClick'#7#12'ReplaceClick'#0#0#9'TMenuItem'#3'GTo'#7'Caption'
+  ,#6#8'Go To...'#7'OnClick'#7#8'GToClick'#0#0#9'TMenuItem'#10'MenuItem14'#7'Ca'
+  +'ption'#6#10'Select All'#0#0#9'TMenuItem'#10'MenuItem13'#7'Caption'#6#9'Time'
+  +'/Date'#0#0#0#9'TMenuItem'#9'MenuItem3'#7'Caption'#6#6'Format'#0#9'TMenuItem'
+  +#8'WordWrap'#9'AutoCheck'#9#7'Caption'#6#9'Word Wrap'#7'OnClick'#7#13'WordWr'
+  +'apClick'#0#0#9'TMenuItem'#10'MenuItem24'#7'Caption'#6#7'Font...'#0#0#0#9'TM'
+  +'enuItem'#9'MenuItem4'#7'Caption'#6#4'View'#0#9'TMenuItem'#9'StatusBar'#9'Au'
+  +'toCheck'#9#7'Caption'#6#10'Status Bar'#7'OnClick'#7#14'StatusBarClick'#0#0#0
+  +#9'TMenuItem'#9'MenuItem5'#7'Caption'#6#4'Help'#0#9'TMenuItem'#4'Help'#7'Cap'
+  +'tion'#6#9'View Help'#7'OnClick'#7#9'HelpClick'#0#0#9'TMenuItem'#5'About'#7
+  +'Caption'#6#13'About Notepad'#7'OnClick'#7#10'AboutClick'#0#0#0#0#11'TFindDi'
+  +'alog'#11'FindDialog1'#7'Options'#11#6'frDown'#10'frFindNext'#11'frWholeWord'
+  +#0#6'OnFind'#7#15'FindDialog1Find'#4'left'#2'h'#3'top'#3#216#1#0#0#14'TRepla'
+  +'ceDialog'#14'ReplaceDialog1'#7'Options'#11#6'frDown'#12'frReplaceAll'#21'fr'
+  +'HidePromptOnReplace'#0#9'OnReplace'#7#21'ReplaceDialog1Replace'#4'left'#3
+  +#200#0#3'top'#3#216#1#0#0#11'TSaveDialog'#11'SaveDialog1'#10'InitialDir'#6'$'
+  +'ExtractFilePath(Application.ExeName)'#4'left'#3'('#1#3'top'#3#216#1#0#0#11
+  +'TOpenDialog'#11'OpenDialog1'#4'left'#3#128#1#3'top'#3#216#1#0#0#0
+]);

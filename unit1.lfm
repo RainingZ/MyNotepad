@@ -1,0 +1,168 @@
+object Form1: TForm1
+  Left = 369
+  Height = 618
+  Top = 138
+  Width = 602
+  HorzScrollBar.Page = 150
+  HorzScrollBar.Range = 150
+  VertScrollBar.Page = 28
+  VertScrollBar.Range = 28
+  Caption = 'Notepad'
+  ClientHeight = 593
+  ClientWidth = 602
+  KeyPreview = True
+  Menu = MainMenu
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  LCLVersion = '1.2.6.0'
+  object Memo1: TMemo
+    Left = 0
+    Height = 567
+    Top = 0
+    Width = 602
+    Align = alClient
+    OnChange = Memo1Change
+    OnKeyDown = Memo1KeyDown
+    OnMouseDown = Memo1MouseDown
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 26
+    Top = 567
+    Width = 602
+    Panels = <    
+      item
+        Alignment = taRightJustify
+        Width = 50
+      end>
+    SimplePanel = False
+    Visible = False
+  end
+  object MainMenu: TMainMenu
+    left = 24
+    top = 472
+    object MenuItem1: TMenuItem
+      Caption = 'File'
+      OnClick = MenuItem1Click
+      object Nw: TMenuItem
+        Caption = 'New'
+        OnClick = NwClick
+      end
+      object Open: TMenuItem
+        Caption = 'Open...'
+        OnClick = OpenClick
+      end
+      object Save: TMenuItem
+        Caption = 'Save'
+        OnClick = SaveClick
+      end
+      object SaveAs: TMenuItem
+        Caption = 'Save As...'
+        OnClick = SaveAsClick
+      end
+      object Quit: TMenuItem
+        Caption = 'Exit'
+        OnClick = QuitClick
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Edit'
+      object Undo: TMenuItem
+        Caption = 'Undo'
+        OnClick = UndoClick
+      end
+      object Cut: TMenuItem
+        Caption = 'Cut'
+        OnClick = CutClick
+      end
+      object Cpy: TMenuItem
+        Caption = 'Copy'
+        OnClick = CpyClick
+      end
+      object Paste: TMenuItem
+        Caption = 'Paste'
+        OnClick = PasteClick
+      end
+      object Del: TMenuItem
+        Caption = 'Delete'
+        OnClick = DelClick
+      end
+      object Find: TMenuItem
+        Caption = 'Find...'
+        OnClick = FindClick
+      end
+      object FindNext: TMenuItem
+        Caption = 'Find Next'
+        OnClick = FindNextClick
+      end
+      object Replace: TMenuItem
+        Caption = 'Replace...'
+        OnClick = ReplaceClick
+      end
+      object GTo: TMenuItem
+        Caption = 'Go To...'
+        OnClick = GToClick
+      end
+      object SelectAll: TMenuItem
+        Caption = 'Select All'
+        OnClick = SelectAllClick
+      end
+      object Time: TMenuItem
+        Caption = 'Time/Date'
+        OnClick = TimeClick
+      end
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Format'
+      object WordWrap: TMenuItem
+        AutoCheck = True
+        Caption = 'Word Wrap'
+        OnClick = WordWrapClick
+      end
+    end
+    object MenuItem4: TMenuItem
+      Caption = 'View'
+      object StatusBar: TMenuItem
+        AutoCheck = True
+        Caption = 'Status Bar'
+        OnClick = StatusBarClick
+      end
+    end
+    object MenuItem5: TMenuItem
+      Caption = 'Help'
+      object Help: TMenuItem
+        Caption = 'View Help'
+        OnClick = HelpClick
+      end
+      object About: TMenuItem
+        Caption = 'About Notepad'
+        OnClick = AboutClick
+      end
+    end
+  end
+  object FindDialog1: TFindDialog
+    Options = [frDown, frFindNext, frWholeWord]
+    OnFind = FindDialog1Find
+    left = 104
+    top = 472
+  end
+  object ReplaceDialog1: TReplaceDialog
+    Options = [frDown, frReplaceAll, frHidePromptOnReplace]
+    OnReplace = ReplaceDialog1Replace
+    left = 200
+    top = 472
+  end
+  object SaveDialog1: TSaveDialog
+    InitialDir = 'ExtractFilePath(Application.ExeName)'
+    left = 296
+    top = 472
+  end
+  object OpenDialog1: TOpenDialog
+    left = 384
+    top = 472
+  end
+end
